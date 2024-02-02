@@ -1,0 +1,7 @@
+@IExceptionHandler_HostAddress = http://localhost:5096
+
+### GET request with a header
+GET {{IExceptionHandler_HostAddress}}/api/exception
+Accept: application/json
+
+###
